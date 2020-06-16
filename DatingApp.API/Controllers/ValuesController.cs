@@ -22,6 +22,7 @@ namespace DatingApp.API.Controllers
 
         }
         // GET api/values
+        [AllowAnonymous]
         [HttpGet]
 
         // IActionResult lets us return http responses to the client
