@@ -27,6 +27,7 @@ namespace DatingApp.API.Migrations
         {
             migrationBuilder.DropTable(
                 name: "Users");
+                
         }
     }
 }
